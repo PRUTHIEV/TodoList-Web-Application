@@ -1,5 +1,5 @@
 {
-    "name": "todolist",
+    "name": "todo-list-pruthiev-application",
     "version": "1.0.0",
     "description": "My Todo List",
     "main": "index.js",
@@ -8,8 +8,9 @@
         "start": "node index.js"
     },
     "keywords": [
-        "example",
-        "heroku"
+        "node",
+        "heroku",
+        "express"
     ],
     "author": "Pruthiev A S",
     "license": "ISC",
