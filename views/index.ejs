@@ -13,7 +13,7 @@
 	</head>
     <body>
 		<div class = "box" id="heading">
-				<h1><%=day%></h1>	
+				<h1><%=day%></h1>
 				<h1><%=type%></h1>
 		</div>
 		<div class="box">
@@ -24,8 +24,8 @@
 				</div>
 			<%}%>
 			<form action="/" class = "item" method = "post">
-				<input type = "text" name = "item" placeholder="New Item" autocomplete="off">
-				<button type="submit" name = "btn" value = <%=type%>>+</button>
+				<input type = "text" name = "item" placeholder="New Item" autocomplete="off" required>
+				<button type="submit" name = "type" value = <%=type%>>+</button>
 			</form>
 		</div>
         

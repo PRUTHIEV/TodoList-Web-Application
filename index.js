@@ -34,14 +34,14 @@ app.get("/", function (req, res) {
 app.get("/timetable", function (req, res) {
     res.render("index", {
         day: currentDayYear,
-        type: "Time Table",
+        type: "TimeTable",
         items: timeTable,
     });
 });
 app.post("/", function (req, res) {
     console.log(req.body);
     const item = req.body.item;
-    if ((req.body.name = "Time Table")) {
+    if (req.body.type == "TimeTable") {
         timeTable.push(item);
         res.redirect("/timetable");
     } else {
